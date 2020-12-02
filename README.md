@@ -12,7 +12,6 @@ See how your app is doing on Heroku
 `heroku logs -n 200`  
 
 
-artillery prtillery quick --count 20 --num 100 
 
 
 I usually use Handlebars but messed a bit with Pug Here
