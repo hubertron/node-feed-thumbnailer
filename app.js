@@ -36,7 +36,6 @@ function getCams() {
           console.error(err, webcamList[i]["Name"], webcamList[i]["URL"]);
         });
     }
-
   } catch (e) {
     console.log(e);
   } finally {
@@ -96,7 +95,7 @@ fs.readdir(directoryPath, function (err, files) {
     });
     // Write to JSON
     const data = JSON.stringify(imageObjects, null, 2);
-    fs.writeFile('./cams.json', data, 'utf8', (err) => {
+    fs.writeFile('cams.json', data, 'utf8', (err) => {
 
       if (err) {
           console.log(`Error writing file: ${err}`);
