@@ -4,7 +4,10 @@ html
     title= title
   body
   h1=title
-    ul
+  div.grid
     each image in images
-        div#gallery-item
-            img(src=image width=300)
+      div#gallery-item
+          img(src=image)
+          br
+          a(href=image) 
+          caption https://cams.mtnfeed.com/#{image}

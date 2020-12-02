@@ -155,7 +155,7 @@ app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 
 app.get('/view-images', (req, res) => {
   let images = allImages;
-   res.render('index', { title: 'Node js – Auto Generate a Photo Gallery from a Directory', images: images })
+   res.render('index', { title: 'Alterra Thumbs', images: images })
 });
 
 let allImages = [];
