@@ -27,4 +27,5 @@ If I want to deploy to Do
 [deploy-a-nodejs-application-to-digital-ocean-with-https](deploy-a-nodejs-application-to-digital-ocean-with-https)
 
 
-*
+About pushing JSON
+[https://attacomsian.com/blog/nodejs-read-write-json-files](https://attacomsian.com/blog/nodejs-read-write-json-files)
