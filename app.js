@@ -48,7 +48,7 @@ function getCams() {
   }
 }
 
-setInterval(getCams, 180000);
+setInterval(getCams, 300000);
 
 
 
@@ -68,15 +68,15 @@ app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 
 
 app.get('/view-images', (req, res) => {
-  let images = allImages;
-  let camTitle = "Some Title";
+ 
+  let imageObject = imageObjects;
    res.render('index', { 
      title: 'Alterra Thumbnails', 
-     images: images,
-     camTitle: camTitle })
+     imageObject: imageObject})
 });
 
-let allImages = [];
+
+let imageObjects = [];
 
 var directoryPath = path.join(__dirname, 'compressed');
 //passsing directoryPath and callback function
@@ -88,9 +88,16 @@ fs.readdir(directoryPath, function (err, files) {
     //listing all files using forEach
     files.forEach(function (file) {
         // Do whatever you want to do with the file 
-        allImages.push('compressed/'+file);
+
+        var stats = fs.statSync('compressed/'+file);
+        var mtime = stats.mtime;
+        var localTime = mtime.toLocaleDateString("en-US", dateOptions);
+ 
+        imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
+    
     });
-    return allImages;
+    return imageObjects;
+
 });
 
 

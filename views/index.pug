@@ -5,11 +5,12 @@ html
   body
   h1=title
   div.grid
-    each image in images
+    each image in imageObject
       div#gallery-item
-          img(src=image)
+          img(src=image['imageURL'])
           br
           div#link 
-            a(href=image target="_blank") https://cams.mtnfeed.com/#{image}
+            a(href=image['imageURL'] target="_blank") https://cams.mtnfeed.com/#{image['imageURL']}
+            p Last updated #{image['timeStamp']} MT
 
   
