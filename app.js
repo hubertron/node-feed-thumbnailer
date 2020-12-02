@@ -23,7 +23,6 @@ function getCams() {
   try {
     const webcamList = yaml.safeLoad(fs.readFileSync('webcams.yaml', 'utf8'));
 
-
     for (const i in webcamList) {
       Jimp.read(webcamList[i]["URL"])
         .then(data => {
@@ -94,6 +93,16 @@ fs.readdir(directoryPath, function (err, files) {
       var localTime = mtime.toLocaleDateString("en-US", dateOptions);
 
       imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
+    });
+    // Write to JSON
+    const data = JSON.stringify(imageObjects);
+    fs.writeFile('./cams.json', data, 'utf8', (err) => {
+
+      if (err) {
+          console.log(`Error writing file: ${err}`);
+      } else {
+          console.log(`File is written successfully!`);
+      }
     });
     return imageObjects;
 });
