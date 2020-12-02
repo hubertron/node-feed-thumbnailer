@@ -1,7 +1,12 @@
 body {
-  font-size: 1rem;
+  font-size: .9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dfdfdf;
 }
 
+h1 {
+  font-size: 1.5em;
+}
 
 .grid { 
   display: grid;
@@ -10,8 +15,20 @@ body {
   align-items: stretch;
   justify-items: center;
   }
-.grid img {
+#gallery-item {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 3px 0px  rgba(0,0,0,0.3);
-  max-width: 100%;
+  max-width: 300px;
+  background-color: white;
+
+  
+}
+
+#link {
+  margin: 10px 2px;
+}
+
+#gallery-item a {
+  overflow-wrap: break-word;
+  color: black;
 }
