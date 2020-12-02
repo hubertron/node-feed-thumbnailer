@@ -1,0 +1,11 @@
+var thumb = require('node-thumbnail').thumb;
+ 
+// thumb(options, callback);
+ 
+thumb({
+  source: '5dfa9e261f26c.jpg', // could be a filename: dest/path/image.jpg
+  destination: 'small.jpg',
+  concurrency: 4
+}, function(files, err, stdout, stderr) {
+  console.log('All done!');
+});
