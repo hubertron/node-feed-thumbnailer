@@ -1,7 +1,7 @@
 
 
 
-const request = require('request')
+
 const fs = require('file-system');
 const yaml = require('js-yaml');
 const Jimp = require('jimp');
@@ -67,7 +67,7 @@ app.use("/compressed", express.static(path.join(__dirname, "compressed")));
 app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 
 
-app.get('/view-images', (req, res) => {
+app.get('/', (req, res) => {
  
   let imageObject = imageObjects;
    res.render('index', { 
