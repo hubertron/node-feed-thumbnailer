@@ -34,7 +34,7 @@ function getCams() {
 
         })
         .catch(err => {
-          console.error(err, webcamList[i]["Name"]);
+          console.error(err, webcamList[i]["Name"] webcamList[i]["URL]);
         });
     }
 
