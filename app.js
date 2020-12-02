@@ -95,7 +95,7 @@ fs.readdir(directoryPath, function (err, files) {
       imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
     });
     // Write to JSON
-    const data = JSON.stringify(imageObjects);
+    const data = JSON.stringify(imageObjects, null, 2);
     fs.writeFile('./cams.json', data, 'utf8', (err) => {
 
       if (err) {
