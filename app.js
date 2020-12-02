@@ -148,8 +148,32 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 
+app.set('view engine', 'pug');
+app.use("/compressed", express.static(path.join(__dirname, "compressed")));
+app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 
-app.use("/compressed", express.static(path.join(__dirname, "compressed")))
+
+app.get('/view-images', (req, res) => {
+  let images = allImages;
+   res.render('index', { title: 'Node js – Auto Generate a Photo Gallery from a Directory', images: images })
+});
+
+let allImages = [];
+
+var directoryPath = path.join(__dirname, 'compressed');
+//passsing directoryPath and callback function
+fs.readdir(directoryPath, function (err, files) {
+    //handling error
+    if (err) {
+        return console.log('Unable to scan directory: ' + err);
+    } 
+    //listing all files using forEach
+    files.forEach(function (file) {
+        // Do whatever you want to do with the file 
+        allImages.push('compressed/'+file);
+    });
+    return allImages;
+});
 
 
 app.listen(PORT, function () {
