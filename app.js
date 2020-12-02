@@ -79,6 +79,7 @@ app.get('/view-images', (req, res) => {
 let imageObjects = [];
 
 var directoryPath = path.join(__dirname, 'compressed');
+
 //passsing directoryPath and callback function
 fs.readdir(directoryPath, function (err, files) {
     //handling error
@@ -87,17 +88,14 @@ fs.readdir(directoryPath, function (err, files) {
     } 
     //listing all files using forEach
     files.forEach(function (file) {
-        // Do whatever you want to do with the file 
+      // Get when the file was last updated and push to an object array       
+      var stats = fs.statSync('compressed/'+file);
+      var mtime = stats.mtime;
+      var localTime = mtime.toLocaleDateString("en-US", dateOptions);
 
-        var stats = fs.statSync('compressed/'+file);
-        var mtime = stats.mtime;
-        var localTime = mtime.toLocaleDateString("en-US", dateOptions);
- 
-        imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
-    
+      imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
     });
     return imageObjects;
-
 });
 
 
@@ -105,10 +103,3 @@ app.listen(PORT, function () {
   console.log(`Express server listening on port ${PORT}`)
 })
 
-/*
-
-https://coderrocketfuel.com/article/how-to-serve-static-files-using-node-js-and-express
-https://coderrocketfuel.com/article/deploy-a-nodejs-application-to-digital-ocean-with-https
-
-
-*/
