@@ -9,6 +9,10 @@ h1 {
   margin: 10px 2px;
 }
 
+h4 {
+  overflow-wrap: break-word;  
+}
+
 .grid { 
   display: flex;
   justify-content: space-between;
