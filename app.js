@@ -1,5 +1,6 @@
 
-
+const express = require("express")
+const path = require("path")
 
 
 const fs = require('file-system');
@@ -17,7 +18,9 @@ const dateOptions = {
   minute: "numeric"
 };
 
+let imageObjects = [];
 
+var directoryPath = path.join(__dirname, 'compressed');
 
 function getCams() {
   try {
@@ -43,7 +46,37 @@ function getCams() {
     let timeFormat = today.toLocaleDateString("en-US", dateOptions);
 
     console.log("fetched webcams at:", timeFormat)
-  }
+  };
+  //passsing directoryPath and callback function
+fs.readdir(directoryPath, function (err, files) {
+  // Clear our image object
+  imageObjects = [];
+  //handling error
+  if (err) {
+      return console.log('Unable to scan directory: ' + err);
+  } 
+  //listing all files using forEach
+  files.forEach(function (file) {
+    // Get when the file was last updated and push to an object array       
+    var stats = fs.statSync('compressed/'+file);
+    var mtime = stats.mtime;
+    var localTime = mtime.toLocaleDateString("en-US", dateOptions);
+    console.log(localTime);
+    imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
+  });
+  // Write to JSON
+  const data = JSON.stringify(imageObjects, null, 2);
+  fs.writeFile('compressed/cams.json', data, 'utf8', (err) => {
+
+    if (err) {
+        console.log(`Error writing file: ${err}`);
+    } else {
+        console.log(`File is written successfully!`);
+    }
+  });
+  return imageObjects;
+});
+  
 }
 
 setInterval(getCams, 300000);
@@ -53,8 +86,7 @@ setInterval(getCams, 300000);
 
 /* Express Server Setup and Config */
 
-const express = require("express")
-const path = require("path")
+
 
 const PORT = process.env.PORT || 5000
 
@@ -74,37 +106,6 @@ app.get('/', (req, res) => {
 });
 
 
-let imageObjects = [];
-
-var directoryPath = path.join(__dirname, 'compressed');
-
-//passsing directoryPath and callback function
-fs.readdir(directoryPath, function (err, files) {
-    //handling error
-    if (err) {
-        return console.log('Unable to scan directory: ' + err);
-    } 
-    //listing all files using forEach
-    files.forEach(function (file) {
-      // Get when the file was last updated and push to an object array       
-      var stats = fs.statSync('compressed/'+file);
-      var mtime = stats.mtime;
-      var localTime = mtime.toLocaleDateString("en-US", dateOptions);
-
-      imageObjects.push({timeStamp : localTime, imageURL : 'compressed/'+file});
-    });
-    // Write to JSON
-    const data = JSON.stringify(imageObjects, null, 2);
-    fs.writeFile('cams.json', data, 'utf8', (err) => {
-
-      if (err) {
-          console.log(`Error writing file: ${err}`);
-      } else {
-          console.log(`File is written successfully!`);
-      }
-    });
-    return imageObjects;
-});
 
 
 app.listen(PORT, function () {
