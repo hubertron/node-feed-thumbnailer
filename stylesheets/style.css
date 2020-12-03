@@ -10,11 +10,11 @@ h1 {
 }
 
 .grid { 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   grid-gap: 15px;
-  align-items: stretch;
-  justify-items: center;
+  flex-wrap: wrap;
+  
   }
 #gallery-item {
   border: 1px solid #ccc;

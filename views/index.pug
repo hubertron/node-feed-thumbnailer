@@ -7,10 +7,10 @@ html
   div.grid
     each image in imageObject
       div#gallery-item
+          
           img(src=image['imageURL'])
           br
+          h4 #{image['name']}
           div#link 
             a(href=image['imageURL'] target="_blank") https://cams.mtnfeed.com/#{image['imageURL']}
             p Last updated: #{image['timeStamp']} MT
-
-  
