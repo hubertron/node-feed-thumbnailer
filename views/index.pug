@@ -3,11 +3,10 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css', type='text/css')
     title= title
   body
-  h1=title
-  div.grid
-    each image in imageObject
-      div#gallery-item
-          
+    h1=title
+    div.grid
+      each image in imageObject
+        div#gallery-item  
           img(src=image['imageURL'])
           br
           h4 #{image['name']}

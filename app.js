@@ -22,7 +22,7 @@ let imageObjects = [];
 
 var directoryPath = path.join(__dirname, 'compressed');
 
-function getCams() {
+async function getCams() {
   try {
     const webcamList = yaml.safeLoad(fs.readFileSync('webcams.yaml', 'utf8'));
 
