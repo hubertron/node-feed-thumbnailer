@@ -12,12 +12,10 @@ app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 app.get("/", (req, res) => {
   console.log(`GET ${req.path}`);
 
-  // read file each request, in case it changed
+  // read cam list file each request, in case it changed
   const imageObject = JSON.parse(
     fs.readFileSync(path.join(__dirname, "/cams.json"), "utf8")
   );
-
-  console.log(imageObject);
 
   res.render("index", {
     title: "Alterra Thumbnails",
