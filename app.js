@@ -77,7 +77,7 @@ async function getCams() {
         var stats = fs.statSync('compressed/' + file);
         var mtime = stats.mtime;
         var localTime = mtime.toLocaleDateString("en-US", dateOptions);
-        imageObjects.push({ timeStamp: localTime, imageURL: 'compressed/' + file, name: file.slice(0, -12) });
+        imageObjects.push({ timeStamp: localTime, imageURL: 'compressed/' + file, name: file.slice(0, -11) });
       });
       
       writeJSON(imageObjects);
