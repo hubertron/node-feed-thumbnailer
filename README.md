@@ -1,5 +1,5 @@
 
-Currently set to refresh images every every 3 minutes.
+Currently set to refresh images every every 5 minutes.
 
 
 
