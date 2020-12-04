@@ -33,7 +33,13 @@ async function getCams() {
           return data
             .resize(300, 169) // resize
             .quality(60) // set JPEG quality
-            .writeAsync('compressed/' + webcamList[i]["Name"] + '.jpg');
+            .writeAsync('compressed/' + webcamList[i]["Name"] + '_300x169' + '.jpg');
+        })
+        .then(data => {
+          return data
+            .resize(1280, 720) // resize
+            .quality(60) // set JPEG quality
+            .writeAsync('fullsize/' + webcamList[i]["Name"] + '_1280x720' + '.jpg');
         })
         .catch(err => {
           console.error(err, webcamList[i]["Name"], webcamList[i]["URL"]);
@@ -61,7 +67,7 @@ async function getCams() {
         var stats = fs.statSync('compressed/' + file);
         var mtime = stats.mtime;
         var localTime = mtime.toLocaleDateString("en-US", dateOptions);
-        imageObjects.push({ timeStamp: localTime, imageURL: 'compressed/' + file, name: file.slice(0, -4) });
+        imageObjects.push({ timeStamp: localTime, imageURL: 'compressed/' + file, name: file.slice(0, -12) });
       });
       
       writeJSON(imageObjects);

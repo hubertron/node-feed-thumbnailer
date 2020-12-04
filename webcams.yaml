@@ -89,13 +89,13 @@
 - Name: FarEast
   URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_JLTR00000E44'
 - Name: ValleyViews
-  URL: 'https://storage.googleapis.com/prism-cam-00089/180.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00089/1080.jpg'
 - Name: HighCampViews
-  URL: 'https://storage.googleapis.com/prism-cam-00016/1080-watermark.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00016/1080.jpg'
 - Name: AlpinePeak
   URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_LAYK0000089F'
 - Name: AlpineBase
-  URL: 'https://storage.googleapis.com/prism-cam-00019/180.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00019/1080.jpg'
 - Name: rh2
   URL: 'https://webcams.solitudemountain.com/rh2.jpg'
 - Name: LCMC
