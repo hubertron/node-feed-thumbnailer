@@ -18,6 +18,16 @@ const dateOptions = {
   minute: "numeric"
 };
 
+// Config Options
+const refreshInterval = 300000;
+const thumbnailWidth = 300;
+const thumbnailHeight = 169;
+const thumbnailQuality = 60;
+const fullsizeWidth = 1280;
+const fullsizeHeight = 720;
+const fullsizeQuality = 70;
+
+
 let imageObjects = [];
 
 var directoryPath = path.join(__dirname, 'compressed');
@@ -31,14 +41,14 @@ async function getCams() {
       Jimp.read(webcamList[i]["URL"])
         .then(data => {
           return data
-            .resize(300, 169) // resize
-            .quality(60) // set JPEG quality
+            .resize(thumbnailWidth, thumbnailHeight) // resize
+            .quality(thumbnailQuality) // set JPEG quality
             .writeAsync('compressed/' + webcamList[i]["Name"] + '_300x169' + '.jpg');
         })
         .then(data => {
           return data
-            .resize(1280, 720) // resize
-            .quality(60) // set JPEG quality
+            .resize(fullsizeWidth, fullsizeHeight) // resize
+            .quality(fullsizeQuality) // set JPEG quality
             .writeAsync('fullsize/' + webcamList[i]["Name"] + '_1280x720' + '.jpg');
         })
         .catch(err => {
@@ -76,7 +86,7 @@ async function getCams() {
     });
   };
 
-} setInterval(getCams, 300000);
+} setInterval(getCams, refreshInterval);
 
 // Write to JSON
 function writeJSON(imageObjects){
