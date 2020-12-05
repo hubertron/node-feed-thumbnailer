@@ -3,16 +3,16 @@ Currently set to refresh images every every 5 minutes.
 
 
 
-How to deploy:  
-[https://devcenter.heroku.com/articles/deploying-nodejs](https://devcenter.heroku.com/articles/deploying-nodejs)
+
+Tail CronJob Logs
+`tail -f /var/log/syslog | grep CRON`
+`tail -f /var/log/image-fetch.log`
 
 
-See how your app is doing on Heroku  
-`heroku logs --tail`  
-`heroku logs -n 200`  
+Run every 5 min
+`*/5 * * * * /usr/bin/node /root/node-feed-thumbnailer/camScraper.js >> /var/log/image-fetch.log 2>&1`
 
-View Heroku Bash
-`heroku run bash`
+
 
 I usually use Handlebars but messed a bit with Pug Here
 [https://www.sitepoint.com/a-beginners-guide-to-pug/](https://www.sitepoint.com/a-beginners-guide-to-pug/)
