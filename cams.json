@@ -1,356 +1,356 @@
 [
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "AlpineBase",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/AlpineBase_300x169.jpg",
-    "fullsizeURL": "/fullsize/AlpineBase_1280x720.jpg",
-    "name": "AlpineBase"
+    "fullsizeURL": "/fullsize/AlpineBase_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "AlpinePeak",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/AlpinePeak_300x169.jpg",
-    "fullsizeURL": "/fullsize/AlpinePeak_1280x720.jpg",
-    "name": "AlpinePeak"
+    "fullsizeURL": "/fullsize/AlpinePeak_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "BlueMountainInnCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/BlueMountainInnCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/BlueMountainInnCam_1280x720.jpg",
-    "name": "BlueMountainInnCam"
+    "fullsizeURL": "/fullsize/BlueMountainInnCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM2_s",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM2_s_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM2_s_1280x720.jpg",
-    "name": "CRYM2_s"
+    "fullsizeURL": "/fullsize/CRYM2_s_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM3_l",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM3_l_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM3_l_1280x720.jpg",
-    "name": "CRYM3_l"
+    "fullsizeURL": "/fullsize/CRYM3_l_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM4_l",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM4_l_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM4_l_1280x720.jpg",
-    "name": "CRYM4_l"
+    "fullsizeURL": "/fullsize/CRYM4_l_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM5_l",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM5_l_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM5_l_1280x720.jpg",
-    "name": "CRYM5_l"
+    "fullsizeURL": "/fullsize/CRYM5_l_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM6_l",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM6_l_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM6_l_1280x720.jpg",
-    "name": "CRYM6_l"
+    "fullsizeURL": "/fullsize/CRYM6_l_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "CRYM7_l",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/CRYM7_l_300x169.jpg",
-    "fullsizeURL": "/fullsize/CRYM7_l_1280x720.jpg",
-    "name": "CRYM7_l"
+    "fullsizeURL": "/fullsize/CRYM7_l_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "ChampagnePowderCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/ChampagnePowderCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/ChampagnePowderCam_1280x720.jpg",
-    "name": "ChampagnePowderCam"
+    "fullsizeURL": "/fullsize/ChampagnePowderCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "FarEast",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/FarEast_300x169.jpg",
-    "fullsizeURL": "/fullsize/FarEast_1280x720.jpg",
-    "name": "FarEast"
+    "fullsizeURL": "/fullsize/FarEast_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "HighCampViews",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/HighCampViews_300x169.jpg",
-    "fullsizeURL": "/fullsize/HighCampViews_1280x720.jpg",
-    "name": "HighCampViews"
+    "fullsizeURL": "/fullsize/HighCampViews_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "June_Chair_J1_Top_1280x720",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/June_Chair_J1_Top_1280x720_300x169.jpg",
-    "fullsizeURL": "/fullsize/June_Chair_J1_Top_1280x720_1280x720.jpg",
-    "name": "June_Chair_J1_Top_1280x720"
+    "fullsizeURL": "/fullsize/June_Chair_J1_Top_1280x720_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "June_J3_June_Mountain_Summit_1280x720",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/June_J3_June_Mountain_Summit_1280x720_300x169.jpg",
-    "fullsizeURL": "/fullsize/June_J3_June_Mountain_Summit_1280x720_1280x720.jpg",
-    "name": "June_J3_June_Mountain_Summit_1280x720"
+    "fullsizeURL": "/fullsize/June_J3_June_Mountain_Summit_1280x720_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "June_J3_Rainbow_Summit_1280x720",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/June_J3_Rainbow_Summit_1280x720_300x169.jpg",
-    "fullsizeURL": "/fullsize/June_J3_Rainbow_Summit_1280x720_1280x720.jpg",
-    "name": "June_J3_Rainbow_Summit_1280x720"
+    "fullsizeURL": "/fullsize/June_J3_Rainbow_Summit_1280x720_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "June_June_Meadows_Chalet_1280x720",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/June_June_Meadows_Chalet_1280x720_300x169.jpg",
-    "fullsizeURL": "/fullsize/June_June_Meadows_Chalet_1280x720_1280x720.jpg",
-    "name": "June_June_Meadows_Chalet_1280x720"
+    "fullsizeURL": "/fullsize/June_June_Meadows_Chalet_1280x720_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "LCMC",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/LCMC_300x169.jpg",
-    "fullsizeURL": "/fullsize/LCMC_1280x720.jpg",
-    "name": "LCMC"
+    "fullsizeURL": "/fullsize/LCMC_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "MainBaseCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/MainBaseCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/MainBaseCam_1280x720.jpg",
-    "name": "MainBaseCam"
+    "fullsizeURL": "/fullsize/MainBaseCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "MidMountainCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/MidMountainCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/MidMountainCam_1280x720.jpg",
-    "name": "MidMountainCam"
+    "fullsizeURL": "/fullsize/MidMountainCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "OrchardCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/OrchardCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/OrchardCam_1280x720.jpg",
-    "name": "OrchardCam"
+    "fullsizeURL": "/fullsize/OrchardCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "SiberiaCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/SiberiaCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/SiberiaCam_1280x720.jpg",
-    "name": "SiberiaCam"
+    "fullsizeURL": "/fullsize/SiberiaCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "SmartAlecCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/SmartAlecCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/SmartAlecCam_1280x720.jpg",
-    "name": "SmartAlecCam"
+    "fullsizeURL": "/fullsize/SmartAlecCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "SquawBase",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/SquawBase_300x169.jpg",
-    "fullsizeURL": "/fullsize/SquawBase_1280x720.jpg",
-    "name": "SquawBase"
+    "fullsizeURL": "/fullsize/SquawBase_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "SquawScope",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/SquawScope_300x169.jpg",
-    "fullsizeURL": "/fullsize/SquawScope_1280x720.jpg",
-    "name": "SquawScope"
+    "fullsizeURL": "/fullsize/SquawScope_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "SummitCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/SummitCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/SummitCam_1280x720.jpg",
-    "name": "SummitCam"
+    "fullsizeURL": "/fullsize/SummitCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "TopOfSilverBullet",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/TopOfSilverBullet_300x169.jpg",
-    "fullsizeURL": "/fullsize/TopOfSilverBullet_1280x720.jpg",
-    "name": "TopOfSilverBullet"
+    "fullsizeURL": "/fullsize/TopOfSilverBullet_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "ValleyViews",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/ValleyViews_300x169.jpg",
-    "fullsizeURL": "/fullsize/ValleyViews_1280x720.jpg",
-    "name": "ValleyViews"
+    "fullsizeURL": "/fullsize/ValleyViews_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "VillageCam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/VillageCam_300x169.jpg",
-    "fullsizeURL": "/fullsize/VillageCam_1280x720.jpg",
-    "name": "VillageCam"
+    "fullsizeURL": "/fullsize/VillageCam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "WP-TUBE-C-101.jpg",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/WP-TUBE-C-101.jpg_300x169.jpg",
-    "fullsizeURL": "/fullsize/WP-TUBE-C-101.jpg_1280x720.jpg",
-    "name": "WP-TUBE-C-101.jpg"
+    "fullsizeURL": "/fullsize/WP-TUBE-C-101.jpg_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "basenord",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/basenord_300x169.jpg",
-    "fullsizeURL": "/fullsize/basenord_1280x720.jpg",
-    "name": "basenord"
+    "fullsizeURL": "/fullsize/basenord_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "basesud",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/basesud_300x169.jpg",
-    "fullsizeURL": "/fullsize/basesud_1280x720.jpg",
-    "name": "basesud"
+    "fullsizeURL": "/fullsize/basesud_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "best-western-cam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/best-western-cam_300x169.jpg",
-    "fullsizeURL": "/fullsize/best-western-cam_1280x720.jpg",
-    "name": "best-western-cam"
+    "fullsizeURL": "/fullsize/best-western-cam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "burnstop",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/burnstop_300x169.jpg",
-    "fullsizeURL": "/fullsize/burnstop_1280x720.jpg",
-    "name": "burnstop"
+    "fullsizeURL": "/fullsize/burnstop_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "christie",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/christie_300x169.jpg",
-    "fullsizeURL": "/fullsize/christie_1280x720.jpg",
-    "name": "christie"
+    "fullsizeURL": "/fullsize/christie_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "empire",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/empire_300x169.jpg",
-    "fullsizeURL": "/fullsize/empire_1280x720.jpg",
-    "name": "empire"
+    "fullsizeURL": "/fullsize/empire_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "empiretop",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/empiretop_300x169.jpg",
-    "fullsizeURL": "/fullsize/empiretop_1280x720.jpg",
-    "name": "empiretop"
+    "fullsizeURL": "/fullsize/empiretop_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "fourpoints",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/fourpoints_300x169.jpg",
-    "fullsizeURL": "/fullsize/fourpoints_1280x720.jpg",
-    "name": "fourpoints"
+    "fullsizeURL": "/fullsize/fourpoints_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "lrock-cam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/lrock-cam_300x169.jpg",
-    "fullsizeURL": "/fullsize/lrock-cam_1280x720.jpg",
-    "name": "lrock-cam"
+    "fullsizeURL": "/fullsize/lrock-cam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "mbl",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/mbl_300x169.jpg",
-    "fullsizeURL": "/fullsize/mbl_1280x720.jpg",
-    "name": "mbl"
+    "fullsizeURL": "/fullsize/mbl_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "ph",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/ph_300x169.jpg",
-    "fullsizeURL": "/fullsize/ph_1280x720.jpg",
-    "name": "ph"
+    "fullsizeURL": "/fullsize/ph_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "rendezvous",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/rendezvous_300x169.jpg",
-    "fullsizeURL": "/fullsize/rendezvous_1280x720.jpg",
-    "name": "rendezvous"
+    "fullsizeURL": "/fullsize/rendezvous_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:58 PM",
+    "name": "rh2",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/rh2_300x169.jpg",
-    "fullsizeURL": "/fullsize/rh2_1280x720.jpg",
-    "name": "rh2"
+    "fullsizeURL": "/fullsize/rh2_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "silverlake",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/silverlake_300x169.jpg",
-    "fullsizeURL": "/fullsize/silverlake_1280x720.jpg",
-    "name": "silverlake"
+    "fullsizeURL": "/fullsize/silverlake_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "silverstrike",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/silverstrike_300x169.jpg",
-    "fullsizeURL": "/fullsize/silverstrike_1280x720.jpg",
-    "name": "silverstrike"
+    "fullsizeURL": "/fullsize/silverstrike_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snow-stake-cam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snow-stake-cam_300x169.jpg",
-    "fullsizeURL": "/fullsize/snow-stake-cam_1280x720.jpg",
-    "name": "snow-stake-cam"
+    "fullsizeURL": "/fullsize/snow-stake-cam_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowpark",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowpark_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowpark_1280x720.jpg",
-    "name": "snowpark"
+    "fullsizeURL": "/fullsize/snowpark_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowshoebasin_thumb",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowshoebasin_thumb_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowshoebasin_thumb_1280x720.jpg",
-    "name": "snowshoebasin_thumb"
+    "fullsizeURL": "/fullsize/snowshoebasin_thumb_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowshoeboathouse_thumb",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowshoeboathouse_thumb_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowshoeboathouse_thumb_1280x720.jpg",
-    "name": "snowshoeboathouse_thumb"
+    "fullsizeURL": "/fullsize/snowshoeboathouse_thumb_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowshoeshaverscenter_thumb",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowshoeshaverscenter_thumb_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowshoeshaverscenter_thumb_1280x720.jpg",
-    "name": "snowshoeshaverscenter_thumb"
+    "fullsizeURL": "/fullsize/snowshoeshaverscenter_thumb_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowshoesilvercreek_thumb",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowshoesilvercreek_thumb_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowshoesilvercreek_thumb_1280x720.jpg",
-    "name": "snowshoesilvercreek_thumb"
+    "fullsizeURL": "/fullsize/snowshoesilvercreek_thumb_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowshoevillage_thumb",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowshoevillage_thumb_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowshoevillage_thumb_1280x720.jpg",
-    "name": "snowshoevillage_thumb"
+    "fullsizeURL": "/fullsize/snowshoevillage_thumb_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "snowstake",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/snowstake_300x169.jpg",
-    "fullsizeURL": "/fullsize/snowstake_1280x720.jpg",
-    "name": "snowstake"
+    "fullsizeURL": "/fullsize/snowstake_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "sommet",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/sommet_300x169.jpg",
-    "fullsizeURL": "/fullsize/sommet_1280x720.jpg",
-    "name": "sommet"
+    "fullsizeURL": "/fullsize/sommet_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "stbernard",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/stbernard_300x169.jpg",
-    "fullsizeURL": "/fullsize/stbernard_1280x720.jpg",
-    "name": "stbernard"
+    "fullsizeURL": "/fullsize/stbernard_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "sultan",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/sultan_300x169.jpg",
-    "fullsizeURL": "/fullsize/sultan_1280x720.jpg",
-    "name": "sultan"
+    "fullsizeURL": "/fullsize/sultan_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "thunderhead",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/thunderhead_300x169.jpg",
-    "fullsizeURL": "/fullsize/thunderhead_1280x720.jpg",
-    "name": "thunderhead"
+    "fullsizeURL": "/fullsize/thunderhead_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "voyageurs",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/voyageurs_300x169.jpg",
-    "fullsizeURL": "/fullsize/voyageurs_1280x720.jpg",
-    "name": "voyageurs"
+    "fullsizeURL": "/fullsize/voyageurs_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "wasatchtop",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/wasatchtop_300x169.jpg",
-    "fullsizeURL": "/fullsize/wasatchtop_1280x720.jpg",
-    "name": "wasatchtop"
+    "fullsizeURL": "/fullsize/wasatchtop_1280x720.jpg"
   },
   {
-    "timeStamp": "12/04/20, 7:57 PM",
+    "name": "winter-park-basecam",
+    "lastUpdated": "12/04/20, 8:21 PM",
     "imageURL": "/compressed/winter-park-basecam_300x169.jpg",
-    "fullsizeURL": "/fullsize/winter-park-basecam_1280x720.jpg",
-    "name": "winter-park-basecam"
+    "fullsizeURL": "/fullsize/winter-park-basecam_1280x720.jpg"
   }
 ]

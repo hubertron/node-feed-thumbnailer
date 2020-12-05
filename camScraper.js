@@ -44,7 +44,7 @@ async function getCams() {
       // wrap 'await' with try-catch
       fetchedImage = await Jimp.read(webcam["URL"]);
 
-      console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i} of ${webcamList.length}`);
+      console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i+1} of ${webcamList.length}`);
 
       if (fetchedImage) {
         await fetchedImage
@@ -91,10 +91,10 @@ async function getCams() {
     const fullSize = `${camName}_${fullsizeWidth}x${fullsizeHeight}.jpg`;
 
     imageObjects.push({
-      timeStamp: localTime,
+      name: camName,
+      lastUpdated: localTime,
       imageURL: `/compressed/${file}`,
-      fullsizeURL: `/fullsize/${fullSize}`,
-      name: camName
+      fullsizeURL: `/fullsize/${fullSize}`
     });
   }
 

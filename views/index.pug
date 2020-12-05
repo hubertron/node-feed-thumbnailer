@@ -11,7 +11,7 @@ html
           br
           h4 #{image['name']}
           div#link 
-            a(href=image['imageURL'] target="_blank") Thumbnail
+            a(href=image['imageURL'] target="_blank" width=300 height=169) Thumbnail
             span  / 
             a(href=image['fullsizeURL'] target="_blank") Full Size
-            p Last updated: #{image['timeStamp']} MT
+            p Last updated: #{image['lastUpdated']} MT
