@@ -11,8 +11,8 @@ See how your app is doing on Heroku
 `heroku logs --tail`  
 `heroku logs -n 200`  
 
-
-
+View Heroku Bash
+`heroku run bash`
 
 I usually use Handlebars but messed a bit with Pug Here
 [https://www.sitepoint.com/a-beginners-guide-to-pug/](https://www.sitepoint.com/a-beginners-guide-to-pug/)

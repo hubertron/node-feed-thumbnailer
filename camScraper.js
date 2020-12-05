@@ -44,27 +44,9 @@ async function getCams() {
       // wrap 'await' with try-catch
       fetchedImage = await Jimp.read(webcam["URL"]);
 
-      
-      Jimp.read(webcamList[i]["URL"])
-      .then(data => {
-        return data
-          .resize(thumbnailWidth, thumbnailHeight) // resize
-          .quality(thumbnailQuality) // set JPEG quality
-          .writeAsync('compressed/' + webcamList[i]["Name"] + '_300x169' + '.jpg');
-      })
-      .then(data => {
-        return data
-          .resize(fullsizeWidth, fullsizeHeight) // resize
-          .quality(fullsizeQuality) // set JPEG quality
-          .writeAsync('fullsize/' + webcamList[i]["Name"] + '_1280x720' + '.jpg');
+      console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i + 1} of ${webcamList.length}`);
 
-          console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i+1} of ${webcamList.length}`);
-      })
-      .catch(err => {
-        console.error(webcamList[i]["Name"], webcamList[i]["URL"], err);
-      });
-    
-      /* if (fetchedImage) {
+      if (fetchedImage) {
         await fetchedImage
           .resize(thumbnailWidth, thumbnailHeight)
           .quality(thumbnailQuality)
@@ -78,10 +60,10 @@ async function getCams() {
           .writeAsync(
             `${fullsizeDirectory}/${webcam["Name"]}_${fullsizeWidth}x${fullsizeHeight}.jpg`
           );
-      }*/
+      }
     } catch (error) {
       console.error(`Error fetching ${webcam["Name"]} at url ${webcam['URL']}`, error);
-    } 
+    }
   }
 
   // read image files from disk
