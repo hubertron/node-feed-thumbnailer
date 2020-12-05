@@ -8,6 +8,7 @@ app.set("view engine", "pug");
 app.use("/compressed", express.static(path.join(__dirname, "compressed")));
 app.use("/fullsize", express.static(path.join(__dirname, "fullsize")));
 app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
+app.use("/feed", express.static(path.join(__dirname, "feed")));
 
 app.get("/", (req, res) => {
   //console.log(`GET ${req.path}`);
