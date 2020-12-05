@@ -101,7 +101,7 @@ async function getCams() {
   // save cam image list to disk
   const data = JSON.stringify(imageObjects, null, 2);
   try {
-    await fs.writeFile("cams.json", data, "utf8");
+    await fs.writeFile("feed/cams.json", data, "utf8");
   } catch (error) {
     console.log(`Error writing file: ${error}`);
   }
