@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
   // read cam list file each request, in case it changed
   const imageObject = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "/feed/cams.json"), "utf8")
+    fs.readFileSync(path.join(__dirname, "feed/cams.json"), "utf8")
   );
 
   res.render("index", {
