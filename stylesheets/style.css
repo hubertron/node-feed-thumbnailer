@@ -11,12 +11,13 @@ h1 {
 
 h4 {
   overflow-wrap: break-word;  
+  margin-left: 5px;
 }
 
 .grid { 
   display: flex;
   justify-content: space-between;
-  grid-gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
   
   }
