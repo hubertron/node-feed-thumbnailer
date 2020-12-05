@@ -42,15 +42,15 @@
   URL: 'https://evovision.citynet.net/snowshoe/images/snowshoesilvercreek_thumb.png'
 - Name: snowshoebasin_thumb
   URL: 'https://evovision.citynet.net/snowshoe/images/snowshoebasin_thumb.png'
-- Name: sommet-low
+- Name: sommet
   URL: 'https://streaming.tremblant.ca/sommet.jpg'
-- Name: basesud-low
+- Name: basesud
   URL: 'https://streaming.tremblant.ca/basesud.jpg'
-- Name: voyageurs-low
+- Name: voyageurs
   URL: 'https://streaming.tremblant.ca/voyageurs.jpg'
-- Name: stbernard-low
+- Name: stbernard
   URL: 'https://streaming.tremblant.ca/stbernard.jpg'
-- Name: basenord-low
+- Name: basenord
   URL: 'https://streaming.tremblant.ca/basenord.jpg'
 - Name: winter-park-basecam
   URL: 'http://cams.winterparkresort.com/winter-park-basecam.jpg'

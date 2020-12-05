@@ -44,7 +44,7 @@ async function getCams() {
       // wrap 'await' with try-catch
       fetchedImage = await Jimp.read(webcam["URL"]);
 
-      console.log(`Fetched ${webcam["Name"]}, resizing and saving.`);
+      console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i} of ${webcamList.length}`);
 
       if (fetchedImage) {
         await fetchedImage
@@ -62,7 +62,7 @@ async function getCams() {
           );
       }
     } catch (error) {
-      console.error(`Error fetching ${webcam["Name"]}`, error);
+      console.error(`Error fetching ${webcam["Name"]} at url ${webcam['URL']}`, error);
     }
   }
 
@@ -89,7 +89,7 @@ async function getCams() {
     imageObjects.push({
       timeStamp: localTime,
       imageURL: `/compressed/${file}`,
-      name: file.slice(0, -11),
+      name: file.slice(0, -12),
     });
   }
 
