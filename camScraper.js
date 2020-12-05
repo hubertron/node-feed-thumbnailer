@@ -24,7 +24,7 @@ async function getCams() {
   const thumbnailQuality = 60;
   const fullsizeWidth = 1280;
   const fullsizeHeight = 720;
-  const fullsizeQuality = 70;
+  const fullsizeQuality = 75;
 
   // Create File Paths
   const compressedDirectory = path.join(__dirname, "compressed");
@@ -86,10 +86,15 @@ async function getCams() {
     const mtime = stats.mtime;
     const localTime = mtime.toLocaleDateString("en-US", dateOptions);
 
+    // Transpose Fullsize into feed
+    const camName = file.slice(0, -12);
+    const fullSize = `${camName}_${fullsizeWidth}x${fullsizeHeight}.jpg`;
+
     imageObjects.push({
       timeStamp: localTime,
       imageURL: `/compressed/${file}`,
-      name: file.slice(0, -12),
+      fullsizeURL: `/fullsize/${fullSize}`,
+      name: camName
     });
   }
 
