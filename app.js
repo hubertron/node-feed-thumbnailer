@@ -11,7 +11,7 @@ app.use("/stylesheets", express.static(path.join(__dirname, "stylesheets")));
 
 
 app.get("/", (req, res) => {
-  //console.log(`GET ${req.path}`);
+  console.log(`GET ${req.path}`);
 
   // read cam list file each request, in case it changed
   const imageObject = JSON.parse(
