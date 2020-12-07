@@ -47,18 +47,19 @@ async function getCams() {
       console.log(`Fetched ${webcam["Name"]}, resizing and saving, ${i + 1} of ${webcamList.length}`);
 
       if (fetchedImage) {
-        await fetchedImage
-          .resize(thumbnailWidth, thumbnailHeight)
-          .quality(thumbnailQuality)
-          .writeAsync(
-            `${compressedDirectory}/${webcam["Name"]}_${thumbnailWidth}x${thumbnailHeight}.jpg`
-          );
 
         await fetchedImage
           .resize(fullsizeWidth, fullsizeHeight)
           .quality(fullsizeQuality)
           .writeAsync(
             `${fullsizeDirectory}/${webcam["Name"]}_${fullsizeWidth}x${fullsizeHeight}.jpg`
+          );
+
+          await fetchedImage
+          .resize(thumbnailWidth, thumbnailHeight)
+          .quality(thumbnailQuality)
+          .writeAsync(
+            `${compressedDirectory}/${webcam["Name"]}_${thumbnailWidth}x${thumbnailHeight}.jpg`
           );
       }
     } catch (error) {
