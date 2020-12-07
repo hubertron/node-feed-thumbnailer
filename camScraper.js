@@ -24,7 +24,7 @@ async function getCams() {
   const thumbnailQuality = 60;
   const fullsizeWidth = 1280;
   const fullsizeHeight = 720;
-  const fullsizeQuality = 75;
+  const fullsizeQuality = 85;
 
   // Create File Paths
   const compressedDirectory = path.join(__dirname, "compressed");

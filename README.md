@@ -13,6 +13,9 @@ Run every 5 min
 `*/5 * * * * /usr/bin/node /root/node-feed-thumbnailer/camScraper.js >> /var/log/image-fetch.log 2>&1`
 
 
+Setting up Timezone on DO
+`https://www.digitalocean.com/community/tutorials/how-to-set-up-timezone-and-ntp-synchronization-on-ubuntu-14-04-quickstart`
+
 
 I usually use Handlebars but messed a bit with Pug Here
 [https://www.sitepoint.com/a-beginners-guide-to-pug/](https://www.sitepoint.com/a-beginners-guide-to-pug/)
