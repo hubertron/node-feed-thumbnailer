@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Resort Weather Stats</title>
+</head>
+<body>
+  <div class="container">
+    <div id="weather">
+  
+    </div>
+  </div>
+  <script>
+    const weather = document.querySelector("#weather");
+const url = "https://mtnpowder.com/feed";
+
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    //console.log(data);
+    for (resort in data.Resorts) {
+      let resortDetails = data.Resorts[resort];
+
+      //console.log(resortDetails);
+
+      weather.innerHTML += `
+       <h3>${resortDetails.Name}</h3>
+       <table class="table table-bordered table-sm">
+        
+      	<thead class="thead-dark">
+        	<tr>
+
+            <th scope="col">Base Conditions</th>
+            <th scope="col">Snow Base Range</th>
+            <th scope="col">Season Total In</th>
+            <th scope="col">1 Day Forecasted Snow</th>
+            <th scope="col">2 Day Forecasted Snow</th>
+            <th scope="col">Open Trails</th>
+            <th scope="col">Groomed Trails</th>
+            <th scope="col">Open Lifts</th>
+        	</tr>
+    		</thead>
+    	<tbody>
+        <tr>
+         
+          <td>${resortDetails.SnowReport.BaseConditions}</td>
+          <td>${resortDetails.SnowReport.SnowBaseRangeIn}</td>
+          <td>${resortDetails.SnowReport.SeasonTotalIn}"</td>
+          <td>${resortDetails.Forecast.OneDay.forecasted_snow_in}"</td>
+          <td>${resortDetails.Forecast.TwoDay.forecasted_snow_in}"</td>
+          <td>${resortDetails.SnowReport.TotalOpenTrails}</td>
+          <td>${resortDetails.SnowReport.GroomedTrails}</td> 
+          <td>${resortDetails.SnowReport.TotalOpenLifts}</td>
+         </tr>
+   			</tr>
+        </tbody>
+      </table>  `;
+    }
+  });
+
+
+  </script>
+  
+</body>
+</html>
