@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resort Weather Stats</title>
+</head>
+<body>
+  <div class="container">
+    <div id="weather">
+  
+    </div>
+  </div>
+  <script>
+    const weather = document.querySelector("#weather");
+const url = "https://mtnpowder.com/feed";
+
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+    for (resort in data.Resorts) {
+      let resortDetails = data.Resorts[resort];
+
+      //console.log(resortDetails);
+
+      if (resortDetails.hasOwnProperty("CurrentConditions")) {
+        let areaDetails = resortDetails.CurrentConditions;
+        weather.innerHTML += `
+       <h3>${resortDetails.Name}</h3>
+       <table class="table table-bordered table-sm">
+        
+      	<thead class="thead-dark">
+        	<tr>
+            <th scope="col">Area</th>
+            <th scope="col">Temp</th>
+            <th scope="col">Skies</th>
+            <th scope="col">Conditions</th>
+            <th scope="col">Icon</th>
+        	</tr>
+    		</thead>
+    	<tbody>
+        <tr>
+          <td>Base</td>
+          <td>${areaDetails.Base.TemperatureF}</td>
+          <td>${areaDetails.Base.Skies}</td>
+          <td>${areaDetails.Base.Conditions}</td>
+          <td>${areaDetails.Base.Icon}</td> 
+         </tr>
+         <tr>
+          <td>Mid</td>
+          <td>${areaDetails.MidMountain.TemperatureF}</td>
+          <td>${areaDetails.MidMountain.Skies}</td>
+          <td>${areaDetails.MidMountain.Conditions}</td>
+          <td>${areaDetails.MidMountain.Icon}</td> 
+         </tr>
+         <tr>
+          <td>Summit</td>
+          <td>${areaDetails.Summit.TemperatureF}</td>
+          <td>${areaDetails.Summit.Skies}</td>
+          <td>${areaDetails.Summit.Conditions}</td>
+          <td>${areaDetails.Summit.Icon}</td> 
+          </tr>
+   			</tr>
+        </tbody>
+      </table>  `;
+      }
+    }
+  });
+
+  </script>
+  
+</body>
+</html>
