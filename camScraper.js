@@ -80,7 +80,7 @@ async function getCams() {
   }
   console.log(`Found ${uploadFiles.length} pushed uploaded image files locally.`);
 
-  for (let i = 0; i < uploadFilecd s.length; i++) {
+  for (let i = 0; i < uploadFiles.length; i++) {
     const uploadFile = uploadFiles[i];
     Jimp.read(`${uploadDirectory}/${uploadFile}`)
       .then((image) => {
