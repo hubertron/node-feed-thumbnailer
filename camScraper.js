@@ -80,9 +80,9 @@ async function getCams() {
   }
   console.log(`Found ${uploadFiles.length} pushed uploaded image files locally.`);
 
-  for (let i = 0; i < uploadFiles.length; i++) {
+  for (let i = 0; i < uploadFilecd s.length; i++) {
     const uploadFile = uploadFiles[i];
-    Jimp.read(`${compressedDirectory}/${uploadFile}`)
+    Jimp.read(`${uploadDirectory}/${uploadFile}`)
       .then((image) => {
         return image
         .resize(fullsizeWidth, fullsizeHeight)
