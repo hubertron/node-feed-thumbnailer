@@ -82,19 +82,20 @@ async function getCams() {
 
   for (let i = 0; i < uploadFiles.length; i++) {
     const uploadFile = uploadFiles[i];
+    const uploadSlice = uploadFile.slice(0, -4);
     Jimp.read(`${uploadDirectory}/${uploadFile}`)
       .then((image) => {
         return image
         .resize(fullsizeWidth, fullsizeHeight)
         .quality(fullsizeQuality)
         .writeAsync(
-          `${fullsizeDirectory}/${uploadFile}_${fullsizeWidth}x${fullsizeHeight}.jpg`
+          `${fullsizeDirectory}/${uploadSlice}_${fullsizeWidth}x${fullsizeHeight}.jpg`
         ).then((image) => {
           return image
           .resize(thumbnailWidth, thumbnailHeight)
           .quality(thumbnailQuality)
           .writeAsync(
-            `${compressedDirectory}/${uploadFile}_${thumbnailWidth}x${thumbnailHeight}.jpg`
+            `${compressedDirectory}/${uploadSlice}_${thumbnailWidth}x${thumbnailHeight}.jpg`
           );
         })
       })
