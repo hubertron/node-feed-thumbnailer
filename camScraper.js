@@ -82,7 +82,7 @@ async function getCams() {
 
   for (let i = 0; i < uploadFiles.length; i++) {
     const uploadFile = uploadFiles[i];
-    Jimp.read(`uploads/${uploadFile}`)
+    Jimp.read(`/root/node-feed-thumbnailer/uploads/${uploadFile}`)
       .then((image) => {
         return image
         .resize(fullsizeWidth, fullsizeHeight)
