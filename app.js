@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
 })
 router.post('/upload',upload.single('image') ,async (req, res) => {
 
-    return res.send('SUCCESS! You did it Jack Harris!')
+    return res.send('SUCCESS!')
 })
 
 const PORT = process.env.PORT || 5000;
