@@ -3,6 +3,10 @@ const path = require("path");
 const express = require("express");
 
 const app = express();
+const multer = require('multer')
+
+const storage = require('./upload-config')
+const upload = multer(storage)
 
 app.set("view engine", "pug");
 app.use("/compressed", express.static(path.join(__dirname, "compressed")));
@@ -24,6 +28,17 @@ app.get("/", (req, res) => {
     imageObject,
   });
 });
+
+const router = new express.Router
+app.use(router)
+
+router.get('/', (req, res) => {
+    res.send('ok')
+})
+router.post('/upload',upload.single('image') ,async (req, res) => {
+
+    return res.send('SUCCESS!')
+})
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

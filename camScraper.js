@@ -29,13 +29,16 @@ async function getCams() {
   // Create File Paths
   const compressedDirectory = path.join(__dirname, "compressed");
   const fullsizeDirectory = path.join(__dirname, "fullsize");
+  const uploadDirectory = path.join(__dirname, "uploads");
 
   // Load YAML list of cams
   const webcamYaml = await fs.readFile("/root/node-feed-thumbnailer/webcams.yaml", "utf8");
+  // const webcamYaml = await fs.readFile("webcams.yaml", "utf8");
   const webcamList = yaml.safeLoad(webcamYaml);
 
   console.log(`Loaded list of ${webcamList.length} cams.`);
 
+  
   for (let i = 0; i < webcamList.length; i++) {
     const webcam = webcamList[i];
     let fetchedImage;
@@ -67,6 +70,39 @@ async function getCams() {
     }
   }
 
+
+  // read uploaded files from disk
+  let uploadFiles;
+  try {
+    uploadFiles = await fs.readdir(uploadDirectory);
+  } catch (error) {
+    console.error("Unable to scan directory:", error);
+  }
+  console.log(`Found ${uploadFiles.length} pushed uploaded image files locally.`);
+
+  for (let i = 0; i < uploadFiles.length; i++) {
+    const uploadFile = uploadFiles[i];
+    Jimp.read(`./uploads/${uploadFile}`)
+      .then((image) => {
+        return image
+        .resize(fullsizeWidth, fullsizeHeight)
+        .quality(fullsizeQuality)
+        .writeAsync(
+          `${fullsizeDirectory}/${uploadFile}_${fullsizeWidth}x${fullsizeHeight}.jpg`
+        ).then((image) => {
+          return image
+          .resize(thumbnailWidth, thumbnailHeight)
+          .quality(thumbnailQuality)
+          .writeAsync(
+            `${compressedDirectory}/${uploadFile}_${thumbnailWidth}x${thumbnailHeight}.jpg`
+          );
+        })
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }
+
   // read image files from disk
   let files;
   try {
@@ -95,7 +131,7 @@ async function getCams() {
       name: camName,
       lastUpdated: localTime,
       imageURL: `/compressed/${file}`,
-      fullsizeURL: `/fullsize/${fullSize}`
+      fullsizeURL: `/fullsize/${fullSize}`,
     });
   }
 
@@ -103,6 +139,7 @@ async function getCams() {
   const data = JSON.stringify(imageObjects, null, 2);
   try {
     await fs.writeFile("/root/node-feed-thumbnailer/feed/cams.json", data, "utf8");
+    //await fs.writeFile("feed/cams.json", data, "utf8");
   } catch (error) {
     console.log(`Error writing file: ${error}`);
   }
