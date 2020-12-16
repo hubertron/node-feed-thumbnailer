@@ -32,8 +32,8 @@ async function getCams() {
   const uploadDirectory = path.join(__dirname, "uploads");
 
   // Load YAML list of cams
-  //const webcamYaml = await fs.readFile("/root/node-feed-thumbnailer/webcams.yaml", "utf8");
-  const webcamYaml = await fs.readFile("webcams.yaml", "utf8");
+  const webcamYaml = await fs.readFile("/root/node-feed-thumbnailer/webcams.yaml", "utf8");
+  //const webcamYaml = await fs.readFile("webcams.yaml", "utf8");
   const webcamList = yaml.safeLoad(webcamYaml);
 
   console.log(`Loaded list of ${webcamList.length} cams.`);
@@ -138,8 +138,8 @@ async function getCams() {
   // save cam image list to disk
   const data = JSON.stringify(imageObjects, null, 2);
   try {
-    //await fs.writeFile("/root/node-feed-thumbnailer/feed/cams.json", data, "utf8");
-    await fs.writeFile("feed/cams.json", data, "utf8");
+    await fs.writeFile("/root/node-feed-thumbnailer/feed/cams.json", data, "utf8");
+    //await fs.writeFile("feed/cams.json", data, "utf8");
   } catch (error) {
     console.log(`Error writing file: ${error}`);
   }
