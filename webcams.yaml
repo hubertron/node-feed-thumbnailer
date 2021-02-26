@@ -120,3 +120,19 @@
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg'
 - Name: CRYM6_l
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg'
+- Name: BertholdPassEast
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM243North.jpg&v=9c3cc57'
+- Name: BertholdPassRoad
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM243RoadSurface.jpg&v=9c3cc57'
+- Name: BerthholdFallsEast
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM244East.jpg&v=9c3cc57'
+- Name: EmpireExit
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=remote/CTMCCAM040W257-50-W.jpg&v=9c3cc57'
+- Name: MtWernerDrive
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=remote/CTMCCAM040W134-4-N.jpg&v=9c3cc57'
+- Name: RabbitEarsDecentWestStarRidge
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM141West.jpg&v=9c3cc57'
+- Name: RabbitEarsDecentEast5miW
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM147East.jpg&v=9c3cc57'
+- Name: 4014InteractionsRabbitEars
+  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM157CO14East.jpg&v=9c3cc57'
