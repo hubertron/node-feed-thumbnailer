@@ -87,19 +87,19 @@
 - Name: SquawScope
   URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_ISWA00000886'
 - Name: SiberiaCam
-  URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_PUAQ000008EA'
+  URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_PUAQ000008EA'
 - Name: SquawBase
-  URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_PGUS00000B0B'
+  URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_PGUS00000B0B'
 - Name: FarEast
-  URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_JLTR00000E44'
+  URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_JLTR00000E44'
 - Name: ValleyViews
-  URL: 'https://storage.googleapis.com/prism-cam-00089/1080.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00089/720.jpg'
 - Name: HighCampViews
-  URL: 'https://storage.googleapis.com/prism-cam-00016/1080.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00016/720.jpg'
 - Name: AlpinePeak
-  URL: 'https://relay.ozolio.com/pub.api?cmd=icon&oid=CID_LAYK0000089F'
+  URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_LAYK0000089F'
 - Name: AlpineBase
-  URL: 'https://storage.googleapis.com/prism-cam-00019/1080.jpg'
+  URL: 'https://storage.googleapis.com/prism-cam-00019/720.jpg'
 - Name: rh2
   URL: 'https://webcams.solitudemountain.com/rh2.jpg'
 - Name: LCMC
