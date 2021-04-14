@@ -154,3 +154,5 @@
   URL: 'https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy89atalpinemeadows/hwy89atalpinemeadows.jpg'
 - Name: rh1
   URL: 'https://webcams.solitudemountain.com/rh1.jpg'
+- Name: StrattonGolf
+  URL: 'http://24.147.179.102:81/axis-cgi/jpg/image.cgi'
