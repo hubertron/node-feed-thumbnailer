@@ -1,5 +1,3 @@
-- Name: empire
-  URL: 'http://cdn.deervalley.com/empire.jpg'
 - Name: sultan
   URL: 'http://cdn.deervalley.com/sultan.jpg'
 - Name: wasatchtop
@@ -50,8 +48,6 @@
   URL: 'https://streaming.tremblant.ca/voyageurs.jpg'
 - Name: stbernard
   URL: 'https://streaming.tremblant.ca/stbernard.jpg'
-- Name: basenord
-  URL: 'https://streaming.tremblant.ca/basenord.jpg'
 - Name: winter-park-basecam
   URL: 'http://cams.winterparkresort.com/winter-park-basecam.jpg'
 - Name: best-western-cam
@@ -65,7 +61,7 @@
 - Name: christie
   URL: 'http://steamboatwebcams.com/image/christie.jpg'
 - Name: ChampagnePowderCam
-  URL: 'https://b9b.hdrelay.com/cameras/e12dbfe2-9359-4b93-a8ce-b5e461b681d1/GetOneShot?size=1920x1080&f=300000'
+  URL: 'http://steamboatwebcams.com/image/powdercam.jpg'
 - Name: thunderhead
   URL: 'http://steamboatwebcams.com/image/thunderhead.jpg'
 - Name: rendezvous
@@ -120,39 +116,11 @@
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg'
 - Name: CRYM6_l
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg'
-- Name: BertholdPassEast
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM243North.jpg&v=9c3cc57'
-- Name: BertholdPassRoad
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM243RoadSurface.jpg&v=9c3cc57'
-- Name: BerthholdFallsEast
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM244East.jpg&v=9c3cc57'
-- Name: EmpireExit
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=remote/CTMCCAM040W257-50-W.jpg&v=9c3cc57'
-- Name: MtWernerDrive
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=remote/CTMCCAM040W134-4-N.jpg&v=9c3cc57'
-- Name: RabbitEarsDecentWestStarRidge
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM141West.jpg&v=9c3cc57'
-- Name: RabbitEarsDecentEast5miW
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM147East.jpg&v=9c3cc57'
-- Name: Intersection4014RabbitEars
-  URL: 'https://i.cotrip.org/dimages/camera?imageURL=liveview/US40MM157CO14East.jpg&v=9c3cc57'
-- Name: BigCC-SR-190
-  URL: 'https://udottraffic.utah.gov/1_devices/aux16214.jpeg'
-- Name: BigCC-SR190-MP10
-  URL: 'https://udottraffic.utah.gov/1_devices/aux16215.jpeg'
-- Name: BigCC-SR190-MP6
-  URL: 'https://udottraffic.utah.gov/1_devices/aux16213.jpeg'
-- Name: DeerValley-SR224-SweedeAlley
-  URL: 'https://udottraffic.utah.gov/1_devices/SR-224-MP-4-all.gif'
-- Name: MammothLakes
-  URL: 'https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr203mammothmountain1/sr203mammothmountain1.jpg'
-- Name: LeeVining
-  URL: 'https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395conwaysummit1/us395conwaysummit1.jpg'
-- Name: Hwy89-SquawValley
-  URL: 'https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy89atsquawvalley/hwy89atsquawvalley.jpg'
-- Name: Hwy89-AlpineMeadows
-  URL: 'https://cwwp2.dot.ca.gov/data/d3/cctv/image/hwy89atalpinemeadows/hwy89atalpinemeadows.jpg'
 - Name: rh1
   URL: 'https://webcams.solitudemountain.com/rh1.jpg'
 - Name: StrattonGolf
   URL: 'http://24.147.179.102:81/axis-cgi/jpg/image.cgi'
+- Name: basenord
+  URL: 'https://streaming.tremblant.ca/basenord.jpg'
+- Name: powdercam
+  URL: 'http://steamboatwebcams.com/image/powdercam.jpg'
