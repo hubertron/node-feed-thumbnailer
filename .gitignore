@@ -6,4 +6,5 @@ npm-debug.log
 fullsize/
 compressed/
 feed
-
+uploads/
+package-lock.json

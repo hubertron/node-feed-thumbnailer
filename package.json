@@ -4,14 +4,14 @@
   "description": "A basic app to fetch a list of image urls from a YAML file and compress and serve them as static files.",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "jimp": "^0.16.1",
-    "js-yaml": "^3.14.0",
-    "multer": "^1.4.2",
-    "pug": "^3.0.0"
+    "js-yaml": "^4.1.0",
+    "multer": "^1.4.4",
+    "pug": ">=3.0.2"
   },
   "engines": {
-    "node": "10.13.0"
+    "node": ">=10.13.0"
   },
   "devDependencies": {},
   "scripts": {
