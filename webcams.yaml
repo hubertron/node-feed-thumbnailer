@@ -14,6 +14,10 @@
   URL: 'http://cdn.deervalley.com/silverstrike.jpg'
 - Name: snowstake
   URL: 'http://cdn.deervalley.com/snowstake.jpg'
+- Name: empire
+  URL: 'https://cdn.deervalley.com/empire.jpg'
+- Name: deercrest
+  URL: 'https://cdn.deervalley.com/deercrest.jpg'
 - Name: SmartAlecCam
   URL: 'http://www.redbuttoncreative.com/cams/SmartAlecCam.jpg'
 - Name: BlueMountainInnCam
@@ -30,6 +34,8 @@
   URL: 'http://73.114.177.111:81/axis-cgi/jpg/image.cgi'
 - Name: MidMountainCam
   URL: 'http://73.114.177.111/axis-cgi/jpg/image.cgi'
+- Name: SnowBowlCam 
+  URL: 'http://73.114.177.111:86/jpg/1/image.jpg'
 - Name: snowshoeshaverscenter_thumb
   URL: 'https://evovision.citynet.net/snowshoe/images/snowshoeshaverscenter_thumb.png'
 - Name: snowshoeboathouse_thumb
@@ -96,13 +102,15 @@
   URL: 'https://relay.ozolio.com/pub.api?cmd=image&oid=CID_LAYK0000089F'
 - Name: AlpineBase
   URL: 'https://storage.googleapis.com/prism-cam-00019/720.jpg'
-- Name: rh2
+- Name: Roundhouse1
+  URL: 'https://webcams.solitudemountain.com/rh1.jpg'
+- Name: Roundhouse2
   URL: 'https://webcams.solitudemountain.com/rh2.jpg'
 - Name: LCMC
   URL: 'https://webcams.solitudemountain.com/LCMC.jpg'
-- Name: mbl
+- Name: MoonbeamVillage
   URL: 'https://webcams.solitudemountain.com/mbl.jpg'
-- Name: ph
+- Name: Powderhorn
   URL: 'https://webcams.solitudemountain.com/ph.jpg'
 - Name: CRYM2_s
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_s.jpg'
@@ -110,8 +118,6 @@
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg?_ck=1332521777'
 - Name: CRYM3_l
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg'
-- Name: CRYM5_l
-  URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg'
 - Name: CRYM4_l
   URL: 'https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg'
 - Name: CRYM6_l
